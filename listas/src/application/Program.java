@@ -24,7 +24,7 @@ public class Program {
 			System.out.println(x);
 		}
 		System.out.println("------------------------------");
-		list.removeIf( y -> y.charAt(0) == "M");
+		list.removeIf( y -> Character.toString(y.charAt(0)) == "M");
 		for (String x : list) {
 			System.out.println(x);
 		}
